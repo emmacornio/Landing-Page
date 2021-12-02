@@ -19,7 +19,7 @@ min-height: 100vh;
 .header-top{display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 10px ;
+    padding: 16px 10px ;
     flex: 0 0 content
 }
 .logo{height: 50px;
@@ -31,9 +31,9 @@ border-color: pink;
 .links{display: flex;
 margin: 0px;
 padding: 0px;
-gap: 16px;
+gap: 32px;
 list-style-type: none;
-justify-content: space-between;
+justify-content: space-around;
 }
 a{text-decoration: none;
 
@@ -188,7 +188,7 @@ align-items: flex-start;
 justify-content: center;
 padding: 16px;
 }
-.action-text .secondary-text{font-weight: normal;}
+.action-text .secondary-text{font-weight: normal; max-width: 600px;}
 
 /* .action-button{border-style: solid;
     flex: 0 0 auto;
